@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <List/>
     </div>
-  );
+  );    
 }
 
 export default App;

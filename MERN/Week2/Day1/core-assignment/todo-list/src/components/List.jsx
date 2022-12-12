@@ -15,7 +15,7 @@ const TodoList = (props) => {
         setContent('');
         }
     };
-    const removeTask = id => {
+    const removeTask = id => {  
         const filtredList = list.filter (task => task.id !== id);
         setList(filtredList);
     };
